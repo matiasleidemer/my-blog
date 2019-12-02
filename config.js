@@ -1,47 +1,43 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'http://www.leidemer.com',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: `Matias Leidemer's Blog`,
+  subtitle: 'Hi, my name is Matias. I am a software developer',
   copyright: '© All rights reserved.',
   disqusShortname: '',
-  postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  postsPerPage: 10,
+  googleAnalyticsId: 'UA-144702319-1',
   useKatex: false,
   menu: [
     {
-      label: 'Articles',
+      label: 'Blog',
       path: '/'
     },
     {
-      label: 'About me',
-      path: '/pages/about'
-    },
-    {
-      label: 'Contact me',
-      path: '/pages/contacts'
+      label: 'About',
+      path: '/about'
     }
   ],
   author: {
-    name: 'John Doe',
+    name: 'Matias Leidemer',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: 'My name is Matias, I am a software developer from Novo Hamburgo, Brazil',
     contacts: {
-      email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '',
-      vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
-      line: '',
+      codepen: '',
+      email: 'matiasleidemer@gmail.com',
+      facebook: '',
+      github: 'matiasleidemer',
       gitlab: '',
-      weibo: '',
-      codepen: ''
+      instagram: '',
+      line: '',
+      linkedin: 'matiasleidemer',
+      rss: '',
+      telegram: '',
+      twitter: 'matiasleidemer',
+      vkontakte: '',
+      weibo: ''
     }
   }
 };
