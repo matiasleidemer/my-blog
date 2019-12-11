@@ -6378,6 +6378,11 @@ gatsby-plugin-flow@^1.1.15:
     "@babel/preset-flow" "^7.7.4"
     "@babel/runtime" "^7.7.6"
 
+gatsby-plugin-google-fonts@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-fonts/-/gatsby-plugin-google-fonts-1.0.1.tgz#d71054f7bf207b9a8da227380369e18e6f4e0201"
+  integrity sha512-p1NVkn27GUnDA5qHM+Z4cCcLCJIardzZXMon3640sT4xuL/AZJbsx3HEt2KY/5oZu0UXIkytkxzV2Da4rQeUIg==
+
 gatsby-plugin-google-gtag@^1.1.17:
   version "1.1.19"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-google-gtag/-/gatsby-plugin-google-gtag-1.1.19.tgz#e1676e376fbe47c8550e88d5a5d41a3995f7cbb2"

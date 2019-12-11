@@ -16,6 +16,13 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [``],
+        display: 'swap'
+      }
+    },
+    {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/content`,
