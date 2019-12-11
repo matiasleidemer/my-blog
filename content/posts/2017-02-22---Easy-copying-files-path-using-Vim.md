@@ -4,6 +4,7 @@ date: "2017-02-22"
 template: "post"
 draft: false
 slug: "/posts/easy-copying-files-path-using-vim/"
+category: ""
 tags:
   - "Vim"
 description: "Sometimes I need to copy the current file’s relative path to the main register (Cmd+C). Luckily Vim has a nice command that returns it."

@@ -5,6 +5,9 @@ template: "post"
 draft: false
 slug: "/posts/lavando-a-louca-do-seu-software"
 category: ""
+tags:
+  - "Thoughts"
+  - "XP"
 description: "Se você, em algum momento da sua vida, ficou mais de 2 ou 3 dias sozinho em casa, ou se você mora sozinho, já deve ter passado por momentos de tensão quando viu a pia da cozinha cheia de louça suja"
 ---
 
