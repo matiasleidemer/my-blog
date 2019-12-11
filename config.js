@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  url: 'http://www.leidemer.com',
+  url: 'https://matiasleidemer.dev',
   pathPrefix: '/',
   title: `Matias Leidemer's Blog`,
   subtitle: 'Hi, my name is Matias. I am a software developer',
