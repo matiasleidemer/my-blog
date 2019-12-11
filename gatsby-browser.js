@@ -1,4 +1,4 @@
 "use strict";
 
 require("./src/assets/scss/init.scss");
-require("./static/css/prismjs/prism-material-oceanic.css");
+require("./static/css/prismjs/prism-material-dark.css");
