@@ -31,4 +31,4 @@ No fim das contas, _Practical Object-Oriented Design in Ruby_ é um livro **obri
 
 Lançado em 2012, é o único livro com [5 estrelas entre os best sellers de ruby na Amazon](http://www.amazon.com/Practical-Object-Oriented-Design-Ruby-Addison-Wesley/dp/0321721330/ref=zg_bs_6134006011_3).
 
-**LEIA!**
+⭐️⭐️⭐️⭐️⭐️

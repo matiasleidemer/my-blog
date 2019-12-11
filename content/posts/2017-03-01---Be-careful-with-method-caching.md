@@ -8,7 +8,7 @@ category: ""
 tags:
   - "Ruby"
   - "Design Patterns"
-description: "Today I spent a good amount of time trying to understand why a specific spec was failing"
+description: "Today I spent a good amount of time trying to understand why a specific spec was failing."
 ---
 
 Today I spent a good amount of time trying to understand why a specific spec was failing. It was a little bit like this (I changed classes/method names for the sake of the example):
