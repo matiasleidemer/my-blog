@@ -1,16 +1,18 @@
 {
   "parser": "babel-eslint",
   "extends": [
-    "plugin:react/recommended",
     "plugin:flowtype/recommended",
     "plugin:jest/all",
-    "prettier-standard"
+    "plugin:react/recommended"
   ],
   "plugins":[
     "jest",
     "react-hooks"
   ],
   "rules": {
-    "dot-notation": ["off"]
+    "jsx-quotes": ["error", "prefer-single"],
+    "dot-notation": ["off"],
+    "quotes": [2, "single", { "avoidEscape": true }],
+    "semi": ["error", "never"]
   }
 }
