@@ -5,6 +5,9 @@ template: "post"
 draft: false
 slug: "/posts/validando-datas-com-js-e-expressoes-regulares"
 category: ""
+tags:
+  - "Javascript"
+  - "Regex"
 description: "Já vi muitas maneiras de se validar datas em JS, cada uma com seus prós e contras. Vou abordar aqui uma maneira de fazer esta validação utilizando Expressões Regulares (Regex)."
 ---
 
