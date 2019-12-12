@@ -3,7 +3,7 @@ import React from 'react'
 import renderer from 'react-test-renderer'
 import Menu from './Menu'
 
-describe('Menu', () => {
+describe('menu', () => {
   const props = {
     menu: [
       {
@@ -19,6 +19,6 @@ describe('Menu', () => {
 
   it('renders correctly', () => {
     const tree = renderer.create(<Menu {...props} />).toJSON()
-    expect(tree).toMatchSnapshot()
+    expect(tree).toMatchInlineSnapshot()
   })
 })

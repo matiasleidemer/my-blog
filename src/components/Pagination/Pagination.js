@@ -34,7 +34,7 @@ const Pagination = ({
     <div className={styles['pagination']}>
       <div className={styles['pagination__prev']}>
         <Link
-          rel="prev"
+          rel='prev'
           to={hasPrevPage ? prevPagePath : '/'}
           className={prevClassName}
         >
@@ -43,7 +43,7 @@ const Pagination = ({
       </div>
       <div className={styles['pagination__next']}>
         <Link
-          rel="next"
+          rel='next'
           to={hasNextPage ? nextPagePath : '/'}
           className={nextClassName}
         >

@@ -3,7 +3,7 @@ import React from 'react'
 import renderer from 'react-test-renderer'
 import Content from './Content'
 
-describe('Content', () => {
+describe('content', () => {
   it('renders correctly', () => {
     const props = {
       title: 'test',
@@ -11,6 +11,6 @@ describe('Content', () => {
     }
 
     const tree = renderer.create(<Content {...props} />).toJSON()
-    expect(tree).toMatchSnapshot()
+    expect(tree).toMatchInlineSnapshot()
   })
 })

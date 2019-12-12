@@ -3,7 +3,7 @@ import React from 'react'
 import renderer from 'react-test-renderer'
 import Tags from './Tags'
 
-describe('Tags', () => {
+describe('tags', () => {
   it('renders correctly', () => {
     const props = {
       tags: ['test_0', 'test_1'],
@@ -11,6 +11,6 @@ describe('Tags', () => {
     }
 
     const tree = renderer.create(<Tags {...props} />).toJSON()
-    expect(tree).toMatchSnapshot()
+    expect(tree).toMatchInlineSnapshot()
   })
 })

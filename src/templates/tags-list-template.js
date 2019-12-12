@@ -14,7 +14,7 @@ const TagsListTemplate = () => {
   return (
     <Layout title={`Tags - ${title}`} description={subtitle}>
       <Sidebar />
-      <Page title="Tags">
+      <Page title='Tags'>
         <ul>
           {tags.map(tag => (
             <li key={tag.fieldValue}>

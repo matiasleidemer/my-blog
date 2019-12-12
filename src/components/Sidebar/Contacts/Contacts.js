@@ -19,8 +19,8 @@ const Contacts = ({ contacts }: Props) => (
             <a
               className={styles['contacts__list-item-link']}
               href={getContactHref(name, contacts[name])}
-              rel="noopener noreferrer"
-              target="_blank"
+              rel='noopener noreferrer'
+              target='_blank'
             >
               <Icon name={name} icon={getIcon(name)} />
             </a>

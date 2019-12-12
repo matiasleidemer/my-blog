@@ -3,7 +3,7 @@ import React from 'react'
 import renderer from 'react-test-renderer'
 import Contacts from './Contacts'
 
-describe('Contacts', () => {
+describe('contacts', () => {
   const props = {
     contacts: {
       email: '#',
@@ -17,6 +17,6 @@ describe('Contacts', () => {
 
   it('renders correctly', () => {
     const tree = renderer.create(<Contacts {...props} />).toJSON()
-    expect(tree).toMatchSnapshot()
+    expect(tree).toMatchInlineSnapshot()
   })
 })
