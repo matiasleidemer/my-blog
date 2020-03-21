@@ -1,11 +1,11 @@
 ---
-title: "About"
-template: "page"
+title: 'About'
+template: 'page'
 ---
 
 Hello.
 
-My name is Matias Leidemer, I am a software developer based in Novo Hamburgo, Brazil. I am currently working for [Stickermule](https://www.stickermule.com).
+My name is Matias Leidemer, I am a software developer based in Novo Hamburgo, Brazil. I am currently looking for opportunities, if you want to chat, please drop me line: matiasleidemer at gmail.
 
 I like to write code that writes code, listen to music, watch movies and all kinds of animals.
 
